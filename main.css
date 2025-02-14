@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 150px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.greska{
+    color: red;
+}
+
+.container{
+    /* border: solid black thin; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+
+
+}
+
+.form{
+    border: solid black thin;
+    padding: 10px;
+    /* margin: 5px; */
+    width: 30%;
+}
+.form_p{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.login_input{
+    width: 300px;
+    height: 35px;
+    font-size: 15px;   
+}
+
+.alat{
+    width: 20%;
+    border: solid black thin;
+
+}
+
+.div_za_alate{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid black thin;
+    gap: 30px;
+
+}
+.opis_alata{
+    text-align: center;
+    padding: 5px;
+}
+/* .tabela th, td{
+    
+    padding: 10px;
+    border: solid black thin;
+    font-size: 15px;
+    text-align: center;
+} */
+.tabela{
+    width: 70%;
+}
+.brojaci{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.brojac_box_ukupno{
+    width: 15%;
+    border: solid black thin;
+    text-align: center;
+    height: 100px;
+    
+}
+.brojac_box_stanje{
+    width: 15%;
+    border: solid black thin;
+    text-align: center;
+    height: 100px;
+}
+.brojac_box_zaduzeno{
+    width: 15%;
+    border: solid black thin;
+    text-align: center;
+    height: 100px;
+}
+.brojac_box_servis{
+    width: 15%;
+    border: solid black thin;
+    text-align: center;
+    height: 100px;
+}
+.dodaj_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    
+}
+.dodaj_button{
+    height: 50px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
